@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoreFragment">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/productdetails"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/Main"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:src="@drawable/baseline_arrow_back_24"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brands"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="4"
+    android:layout_marginLeft="10dp"
+    android:padding="5dp"
+    android:layout_marginTop="15dp"
+    android:orientation="horizontal"
+    >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dell"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELL"
+        android:textColor="@color/Main"
+       android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="5dp"
+        />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/xiaomi"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xiaomi"
+            android:textColor="@color/Main"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="5dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HP"
+            android:textColor="@color/Main"
+            android:layout_marginRight="12dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/huawei"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HUAWEI"
+            android:textColor="@color/Main"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="5dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:padding="5dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vivo"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIVO"
+                android:textColor="@color/Main"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/smartwatch"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:text="watch"
+                android:textAllCaps="true"
+                android:textColor="@color/Main"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/smartphone"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile"
+                android:textAllCaps="true"
+                android:textColor="@color/Main"
+                android:layout_marginRight="12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shop"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="shop"
+                android:textColor="@color/Main"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</FrameLayout>

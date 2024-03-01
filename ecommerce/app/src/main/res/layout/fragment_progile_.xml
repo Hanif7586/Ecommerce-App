@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Progile_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Profile:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="4dp"
+            />
+
+        <TextView
+            android:id="@+id/emailTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/passwordTextView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:visibility="gone"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/logoutid"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="25dp"
+            android:text="Logout" />
+
+    </LinearLayout>
+
+</FrameLayout>
